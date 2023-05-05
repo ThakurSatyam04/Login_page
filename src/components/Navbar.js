@@ -10,16 +10,16 @@ let setIsLoggedIn = props.setIsLoggedIn;
   return (
     <div className='flex justify-between items-center w-11/12 max-w-[1160px] py-4 mx-auto'>
       <Link to="/">
-        <img src={logo} alt="Logo" width={160} height={32} loading="lazy" />
+        <h1 className='text-white text-3xl'>SponsorNexus</h1>
       </Link>
 
-      <nav>
+      {/* <nav>
         <ul className='text-richblack-100 flex gap-x-6'>
             <Link to="/">Home</Link>
             <li src="#">About</li>
             <li src="#">Contact</li>
         </ul>
-      </nav>
+      </nav> */}
 
     {/* Login, SignUp, Logout, Dashboard */}
       <div className='flex items-center gap-x-4'>
